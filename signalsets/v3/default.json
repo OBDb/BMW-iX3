@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "6F1", "rax": "607", "cmd": {"22": "E5C7"}, "freq": 1,
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5C7"}, "freq": 1,
   "signals": [
     {"id": "IX3_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
