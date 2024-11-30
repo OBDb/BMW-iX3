@@ -2,6 +2,11 @@
 
 This repository contains signal set configurations for the BMW iX3, organized by model year and version. The files are structured to allow for easy differentiation between model variations and regional specifications, ensuring accurate signal mapping for each version of the BMW iX3.
 
+## Related vehicles
+
+- https://github.com/OBDb/BMW-i3
+- https://github.com/OBDb/BMW-X3
+
 ## Generations
 
 - **First Generation (G08: 2020-present)**:
