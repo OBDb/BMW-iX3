@@ -1,0 +1,8 @@
+model_year: 2022
+supported_commands_by_ecu:
+  "6F1":
+  - 6F1.607.22E5C7|e=07,fc=1:IX3_HVBAT_SOH
+  - 6F1.607.22E5CE|e=07,fc=1:IX3_HVBAT_SOC
+  - 6F1.629.22DBE4|e=29,fc=1:IX3_FL_SPD,IX3_FR_SPD,IX3_RL_SPD,IX3_RR_SPD
+  - 6F1.660.22D107|e=60,fc=1:IX3_VSS
+  - 6F1.660.22D10D|e=60,fc=1:IX3_ODO1,IX3_ODO2
