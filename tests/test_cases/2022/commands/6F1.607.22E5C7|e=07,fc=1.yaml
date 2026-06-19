@@ -1,0 +1,22 @@
+command_id: 6F1.607.22E5C7|e=07,fc=1
+test_cases:
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
+    607F1100762E5C72167
+    607F1212FD8FFFFFFFF
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
+    607F1100762E5C72176
+    607F1212FD8FFFFFFFF
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
+    607F1100762E5C7217B
+    607F1212FD7FFFFFFFF
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
+    607F1100762E5C7219D
+    607F1212FD7FFFFFFFF
