@@ -1,0 +1,7 @@
+command_id: 6F1.607.22E5C7|e=07,fc=1
+test_cases:
+- expected_values:
+    IX3_HVBAT_SOH: 36
+  response: |-
+    607F1100762E5C718E0
+    607F1212F24FFFFFFFF

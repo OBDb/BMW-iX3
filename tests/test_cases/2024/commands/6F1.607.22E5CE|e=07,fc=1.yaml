@@ -40,3 +40,38 @@ test_cases:
   response: |-
     607F1100962E5CE18B9
     607F121189718E1
+- expected_values:
+    IX3_HVBAT_SOC: 82.17
+  response: |-
+    607F1100962E5CE2019
+    607F1211FF62045FFFF
+- expected_values:
+    IX3_HVBAT_SOC: 82.22
+  response: |-
+    607F1100962E5CE201E
+    607F1211FFA2049FFFF
+- expected_values:
+    IX3_HVBAT_SOC: 82.33
+  response: |-
+    607F1100962E5CE2029
+    607F12120052054FFFF
+- expected_values:
+    IX3_HVBAT_SOC: 82.42
+  response: |-
+    607F1100962E5CE2032
+    607F121200E205DFFFF
+- expected_values:
+    IX3_HVBAT_SOC: 82.43
+  response: |-
+    607F1100962E5CE2033
+    607F1212010205FFFFF
+- expected_values:
+    IX3_HVBAT_SOC: 82.44
+  response: |-
+    607F1100962E5CE2034
+    607F12120102060FFFF
+- expected_values:
+    IX3_HVBAT_SOC: 82.5
+  response: |-
+    607F1100962E5CE203A
+    607F12120172066FFFF
