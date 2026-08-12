@@ -1,0 +1,12 @@
+command_id: 6F1.629.22DBE4|e=29,fc=1
+test_cases:
+- expected_values:
+    IX3_FL_SPD: 105.5
+    IX3_FR_SPD: 105.61
+    IX3_RL_SPD: 105.27
+    IX3_RR_SPD: 105.04
+  response: |-
+    629F1101662DBE42936
+    629F1212941291F2908
+    629F122292301010101
+    629F1230164646464FF

@@ -3,6 +3,16 @@ test_cases:
 - expected_values:
     IX3_HVBAT_SOH: 100
   response: |-
+    607F1100762E5C72BDE
+    607F1213085FFFFFFFF
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
+    607F1100762E5C72BE9
+    607F1213086FFFFFFFF
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
     607F1100762E5C72CFF
     607F12130B0FFFFFFFF
 - expected_values:
