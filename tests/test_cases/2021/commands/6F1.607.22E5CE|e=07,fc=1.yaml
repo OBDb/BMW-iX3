@@ -1,0 +1,7 @@
+command_id: 6F1.607.22E5CE|e=07,fc=1
+test_cases:
+- expected_values:
+    IX3_HVBAT_SOC: 27.47
+  response: |-
+    607F1100962E5CE0ABB
+    607F1210A760AEBFFFF
