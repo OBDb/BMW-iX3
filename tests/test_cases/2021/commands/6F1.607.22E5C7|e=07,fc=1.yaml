@@ -5,3 +5,13 @@ test_cases:
   response: |-
     607F1100762E5C718E0
     607F1212F24FFFFFFFF
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
+    607F1100762E5C72F65
+    607F1212FECFFFFFFFF
+- expected_values:
+    IX3_HVBAT_SOH: 100
+  response: |-
+    607F1100762E5C72F7E
+    607F1212FECFFFFFFFF
