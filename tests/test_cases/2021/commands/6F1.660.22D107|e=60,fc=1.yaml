@@ -1,5 +1,11 @@
 command_id: 6F1.660.22D107|e=60,fc=1
 test_cases:
 - expected_values:
-    IX3_VSS: 109
-  response: 660F10562D1070442
+    IX3_VSS: 11.6
+  response: 660F10562D1070074
+- expected_values:
+    IX3_VSS: 76
+  response: 660F10562D10702F8
+- expected_values:
+    IX3_VSS: 103.7
+  response: 660F10562D107040D
