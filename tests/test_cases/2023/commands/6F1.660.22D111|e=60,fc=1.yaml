@@ -1,0 +1,12 @@
+command_id: 6F1.660.22D111|e=60,fc=1
+test_cases:
+- expected_values:
+    IX3_AUX_PWR: 0.9
+    IX3_RANGE_E_CUR: 273
+    IX3_RANGE_E_MAX: 309
+    IX3_RANGE_E_USE: 22.002
+    IX3_RANGE_F_CUR: 324
+  response: |-
+    660F1100F62D1110AAA
+    660F1210C120CA8FFFF
+    660F12255F2005AFFFF
