@@ -5,3 +5,13 @@ test_cases:
   response: |-
     640F110076217000001
     640F121ED56FFFFFFFF
+- expected_values:
+    IX3_ODO_2: 126334
+  response: |-
+    640F110076217000001
+    640F121ED7EFFFFFFFF
+- expected_values:
+    IX3_ODO_2: 126344
+  response: |-
+    640F110076217000001
+    640F121ED88FFFFFFFF
