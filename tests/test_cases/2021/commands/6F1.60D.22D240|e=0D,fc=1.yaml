@@ -1,0 +1,32 @@
+command_id: 6F1.60D.22D240|e=0D,fc=1
+test_cases:
+- expected_values:
+    IX3_VSS_INSTR: 12
+  response: 60DF10562D240000C
+- expected_values:
+    IX3_VSS_INSTR: 18
+  response: 60DF10562D2400012
+- expected_values:
+    IX3_VSS_INSTR: 27
+  response: 60DF10562D240001B
+- expected_values:
+    IX3_VSS_INSTR: 29
+  response: 60DF10562D240001D
+- expected_values:
+    IX3_VSS_INSTR: 32
+  response: 60DF10562D2400020
+- expected_values:
+    IX3_VSS_INSTR: 53
+  response: 60DF10562D2400035
+- expected_values:
+    IX3_VSS_INSTR: 68
+  response: 60DF10562D2400044
+- expected_values:
+    IX3_VSS_INSTR: 102
+  response: 60DF10562D2400066
+- expected_values:
+    IX3_VSS_INSTR: 105
+  response: 60DF10562D2400069
+- expected_values:
+    IX3_VSS_INSTR: 108
+  response: 60DF10562D240006C
