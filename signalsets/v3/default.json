@@ -11,7 +11,7 @@
   "signals": [
     {"id": "IX3_HVBAT_C", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "dbgfilter": { "to": 2022 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022] },
   "signals": [
     {"id": "IX3_HVBAT_SOC_6F1", "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge",          "suggestedMetric": "stateOfCharge"},
     {"id": "IX3_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, maximum"},
@@ -22,7 +22,7 @@
     {"id": "IX3_HVBAT_CELL_V_MIN", "path": "Engine", "fmt": {           "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Lowest cell voltage"},
     {"id": "IX3_HVBAT_CELL_V_MAX", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Highest cell voltage"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "dbgfilter": { "to": 2022 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022] },
   "signals": [
     {"id": "IX3_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, minimum"},
     {"id": "IX3_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, maximum"}
@@ -56,7 +56,7 @@
     {"id": "IX3_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV, average"},
     {"id": "IX3_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E561"}, "freq": 1,
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E561"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_HVBAT_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327, "min": -327, "mul": -1, "div": 100, "sign": true, "unit": "amps" }, "name": "High voltage battery current"}
   ]},
@@ -68,7 +68,7 @@
   "signals": [
     {"id": "IX3_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2022 },
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022] },
   "signals": [
     {"id": "IX3_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
@@ -210,7 +210,7 @@
   "signals": [
     {"id": "IX3_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC98"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front left tire sensor position"},
     {"id": "IX3_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front left tire pressure",                    "suggestedMetric": "frontLeftTirePressure"},
@@ -219,7 +219,7 @@
     {"id": "IX3_TPMS_RX_FL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Front left tire sensor reception"},
     {"id": "IX3_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                          "name": "Front left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC99"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front right tire sensor position"},
     {"id": "IX3_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                           "name": "Front right tire pressure",                    "suggestedMetric": "frontRightTirePressure"},
@@ -228,7 +228,7 @@
     {"id": "IX3_TPMS_RX_FR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Front right tire sensor reception"},
     {"id": "IX3_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                           "name": "Front right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC9A"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear left tire sensor position"},
     {"id": "IX3_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear left tire pressure",                    "suggestedMetric": "rearLeftTirePressure"},
@@ -237,7 +237,7 @@
     {"id": "IX3_TPMS_RX_RL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Rear left tire sensor reception"},
     {"id": "IX3_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Rear left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"22": "DC9B"}, "freq": 15,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear right tire sensor position"},
     {"id": "IX3_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Rear right tire pressure",                    "suggestedMetric": "rearRightTirePressure"},
@@ -246,11 +246,11 @@
     {"id": "IX3_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                                                         "unit": "percent" },               "name": "Rear right tire sensor reception"},
     {"id": "IX3_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                          "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "dbg": true, "cmd": {"22": "DB99"}, "freq": 1,
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "dbgfilter": { "to": 2022 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "1700"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022] },
   "signals": [
     {"id": "IX3_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant"}
   ]},
@@ -258,12 +258,12 @@
   "signals": [
     {"id": "IX3_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Parking brake applied"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "dbg": true, "cmd": {"22": "D906"}, "freq": 1,
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D906"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_AC_COMP_STAT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar"  }, "name": "Air conditioning compressor status"},
     {"id": "IX3_AC_COMP_PWM",  "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "percent" }, "name": "Air conditioning compressor PWM"}
   ]},
-{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2022 },
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022] },
   "signals": [
     {"id": "IX3_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
     {"id": "IX3_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},
@@ -289,7 +289,7 @@
     {"id": "IX3_ODO1", "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer #1", "suggestedMetric": "odometer"},
     {"id": "IX3_ODO2", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "dbgfilter": { "to": 2022 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D111"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022] },
   "signals": [
     {"id": "IX3_RANGE_E_CUR", "path": "Trips", "fmt": {           "len": 16, "max": 6553.5, "div": 10,                                  "unit": "kilometers"    }, "name": "Current electric range",       "suggestedMetric": "electricRange",        "description": "Current estimated electric range"},
     {"id": "IX3_RANGE_E_MAX", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553.5, "div": 10,                                  "unit": "kilometers"    }, "name": "Maximum electric range"},
@@ -298,17 +298,17 @@
     {"id": "IX3_RANGE_E_USE", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65.535, "div": 1000, "nullmin": 0, "nullmax": 65,   "unit": "kilowattHours" }, "name": "Electric consumption / 100km"},
     {"id": "IX3_AUX_PWR",     "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 655.35, "div": 100,                "nullmax": 655,  "unit": "kilowatts"     }, "name": "Auxiliary power consumption"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2022 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022] },
   "signals": [
     {"id": "IX3_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D129"}, "freq": 30,
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
     {"id": "IX3_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
     {"id": "IX3_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,  "unit": "kilometers"                    }, "name": "Trip computer range"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "D12A"}, "freq": 30,
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_RBC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553,  "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip average consumption since reset"},
     {"id": "IX3_RBC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,   "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip average speed since reset"},
@@ -330,7 +330,7 @@
   "signals": [
     {"id": "IX3_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "dbg": true, "cmd": {"22": "D8C5"}, "freq": 10,
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "IX3_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
