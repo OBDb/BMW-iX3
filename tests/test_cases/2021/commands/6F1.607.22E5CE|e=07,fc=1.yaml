@@ -6,6 +6,11 @@ test_cases:
     607F1100962E5CE0ABB
     607F1210A760AEBFFFF
 - expected_values:
+    IX3_HVBAT_SOC: 67.32
+  response: |-
+    607F1100962E5CE1A4C
+    607F1211A371A6FFFFF
+- expected_values:
     IX3_HVBAT_SOC: 73.96
   response: |-
     607F1100962E5CE1CE4
