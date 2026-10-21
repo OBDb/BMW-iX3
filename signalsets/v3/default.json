@@ -62,7 +62,8 @@
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5C7"}, "freq": 1, "dbgfilter": { "to": 2020 },
   "signals": [
-    {"id": "IX3_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+    {"id": "IX3_HVBAT_E_STORED", "path": "Battery", "fmt": {           "len": 16, "max": 605.35, "div": 100, "add": -50, "unit": "kilowattHours" }, "name": "HV battery energy stored"},
+    {"id": "IX3_HVBAT_E_CAP",    "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 605.35, "div": 100, "add": -50, "unit": "kilowattHours" }, "name": "HV battery energy capacity", "suggestedMetric": "tractionBatteryCapacity"}
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5CE"}, "freq": 1, "dbgfilter": { "to": 2020 },
   "signals": [
