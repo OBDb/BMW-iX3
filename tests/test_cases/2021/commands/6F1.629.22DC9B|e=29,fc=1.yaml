@@ -6,7 +6,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.751
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 19
+    IX3_TT_RR: 59
   response: |-
     629F1101B62DC9B527D
     629F12138A3020ABF3B
@@ -19,7 +19,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.751
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 19
+    IX3_TT_RR: 59
   response: |-
     629F1101B62DC9B527D
     629F12138A3020ABF3B
@@ -32,7 +32,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.751
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 20
+    IX3_TT_RR: 60
   response: |-
     629F1101B62DC9B527D
     629F12138A3020ABF3C
@@ -45,7 +45,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.776
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 18
+    IX3_TT_RR: 58
   response: |-
     629F1101B62DC9B527D
     629F12138A3020AD83A
@@ -58,7 +58,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.801
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 20
+    IX3_TT_RR: 60
   response: |-
     629F1101B62DC9B527D
     629F12138A3020AF13C
@@ -71,7 +71,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.801
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 22
+    IX3_TT_RR: 62
   response: |-
     629F1101B62DC9B527D
     629F12138A3020AF13E
@@ -84,7 +84,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.801
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 23
+    IX3_TT_RR: 63
   response: |-
     629F1101B62DC9B527D
     629F12138A3020AF13F
@@ -97,7 +97,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.801
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 24
+    IX3_TT_RR: 64
   response: |-
     629F1101B62DC9B527D
     629F12138A3020AF140
@@ -110,7 +110,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.851
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 25
+    IX3_TT_RR: 65
   response: |-
     629F1101B62DC9B527D
     629F12138A3020B2341
@@ -123,7 +123,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.926
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 31
+    IX3_TT_RR: 71
   response: |-
     629F1101B62DC9B527D
     629F12138A3020B6E47
@@ -136,7 +136,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 2.951
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 31
+    IX3_TT_RR: 71
   response: |-
     629F1101B62DC9B527D
     629F12138A3020B8747
@@ -149,7 +149,7 @@ test_cases:
     IX3_TPMS_RX_RR: 98
     IX3_TP_RR: 3.026
     IX3_TP_SET_RR: 2.5
-    IX3_TT_RR: 38
+    IX3_TT_RR: 78
   response: |-
     629F1101B62DC9B527D
     629F12138A3020BD24E
