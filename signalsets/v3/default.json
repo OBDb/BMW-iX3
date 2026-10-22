@@ -213,39 +213,39 @@
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "IX3_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Front left tire sensor position"},
-    {"id": "IX3_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front left tire pressure",                    "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "IX3_TT_FL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Front left tire temperature",                 "suggestedMetric": "frontLeftTireTemperature"},
-    {"id": "IX3_TP_SET_FL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front left tire pressure, set point"},
-    {"id": "IX3_TPMS_RX_FL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                        "nullmax": 255, "unit": "percent" }, "name": "Front left tire sensor reception"},
-    {"id": "IX3_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Front left tire sensor battery life, months"}
+    {"id": "IX3_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Front left tire sensor position"},
+    {"id": "IX3_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front left tire pressure",                    "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "IX3_TT_FL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Front left tire temperature",                 "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "IX3_TP_SET_FL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front left tire pressure, set point"},
+    {"id": "IX3_TPMS_RX_FL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "percent"    }, "name": "Front left tire sensor reception"},
+    {"id": "IX3_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Front left tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "IX3_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Front right tire sensor position"},
-    {"id": "IX3_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front right tire pressure",                    "suggestedMetric": "frontRightTirePressure"},
-    {"id": "IX3_TT_FR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Front right tire temperature",                 "suggestedMetric": "frontRightTireTemperature"},
-    {"id": "IX3_TP_SET_FR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front right tire pressure, set point"},
-    {"id": "IX3_TPMS_RX_FR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                        "nullmax": 255, "unit": "percent" }, "name": "Front right tire sensor reception"},
-    {"id": "IX3_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Front right tire sensor battery life, months"}
+    {"id": "IX3_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Front right tire sensor position"},
+    {"id": "IX3_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front right tire pressure",                    "suggestedMetric": "frontRightTirePressure"},
+    {"id": "IX3_TT_FR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Front right tire temperature",                 "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "IX3_TP_SET_FR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front right tire pressure, set point"},
+    {"id": "IX3_TPMS_RX_FR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "percent"    }, "name": "Front right tire sensor reception"},
+    {"id": "IX3_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Front right tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "IX3_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Rear left tire sensor position"},
-    {"id": "IX3_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear left tire pressure",                    "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "IX3_TT_RL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Rear left tire temperature",                 "suggestedMetric": "rearLeftTireTemperature"},
-    {"id": "IX3_TP_SET_RL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear left tire pressure, set point"},
-    {"id": "IX3_TPMS_RX_RL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                        "nullmax": 255, "unit": "percent" }, "name": "Rear left tire sensor reception"},
-    {"id": "IX3_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Rear left tire sensor battery life, months"}
+    {"id": "IX3_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Rear left tire sensor position"},
+    {"id": "IX3_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear left tire pressure",                    "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "IX3_TT_RL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Rear left tire temperature",                 "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "IX3_TP_SET_RL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear left tire pressure, set point"},
+    {"id": "IX3_TPMS_RX_RL",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "percent"    }, "name": "Rear left tire sensor reception"},
+    {"id": "IX3_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Rear left tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "IX3_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Rear right tire sensor position"},
-    {"id": "IX3_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear right tire pressure",                    "suggestedMetric": "rearRightTirePressure"},
-    {"id": "IX3_TT_RR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Rear right tire temperature",                 "suggestedMetric": "rearRightTireTemperature"},
-    {"id": "IX3_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear right tire pressure, set point"},
-    {"id": "IX3_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                        "nullmax": 255, "unit": "percent" }, "name": "Rear right tire sensor reception"},
-    {"id": "IX3_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Rear right tire sensor battery life, months"}
+    {"id": "IX3_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Rear right tire sensor position"},
+    {"id": "IX3_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear right tire pressure",                    "suggestedMetric": "rearRightTirePressure"},
+    {"id": "IX3_TT_RR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Rear right tire temperature",                 "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "IX3_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear right tire pressure, set point"},
+    {"id": "IX3_TPMS_RX_RR",  "path": "Tires", "fmt": {"bix": 96,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "percent"    }, "name": "Rear right tire sensor reception"},
+    {"id": "IX3_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Rear right tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
