@@ -10,5 +10,5 @@ test_cases:
     IX3_VSS: 101.7
   response: 660F10562D10703F9
 - expected_values:
-    IX3_VSS: 103.7
-  response: 660F10562D107040D
+    IX3_VSS: 104.1
+  response: 660F10562D1070411
