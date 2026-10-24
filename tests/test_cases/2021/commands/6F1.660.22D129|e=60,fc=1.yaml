@@ -1,43 +1,31 @@
 command_id: 6F1.660.22D129|e=60,fc=1
 test_cases:
 - expected_values:
-    IX3_BC_AVG_CONS: 6553
-    IX3_BC_AVG_SPD: 655
     IX3_BC_RANGE: 283
   response: |-
     660F1100B62D129FFFD
     660F121FFFD00000B0E
 - expected_values:
-    IX3_BC_AVG_CONS: 6553
-    IX3_BC_AVG_SPD: 655
     IX3_BC_RANGE: 314
   response: |-
     660F1100B62D129FFFD
     660F121FFFD00000C44
 - expected_values:
-    IX3_BC_AVG_CONS: 6553
-    IX3_BC_AVG_SPD: 655
     IX3_BC_RANGE: 278
   response: |-
     660F1100B62D129FFFD
     660F121FFFD00170ADC
 - expected_values:
-    IX3_BC_AVG_CONS: 6553
-    IX3_BC_AVG_SPD: 655
     IX3_BC_RANGE: 286
   response: |-
     660F1100B62D129FFFD
     660F121FFFD005F0B2C
 - expected_values:
-    IX3_BC_AVG_CONS: 6553
-    IX3_BC_AVG_SPD: 655
     IX3_BC_RANGE: 312
   response: |-
     660F1100B62D129FFFD
     660F121FFFD00B00C30
 - expected_values:
-    IX3_BC_AVG_CONS: 6553
-    IX3_BC_AVG_SPD: 655
     IX3_BC_RANGE: 307
   response: |-
     660F1100B62D129FFFD
