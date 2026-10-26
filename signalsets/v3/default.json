@@ -58,7 +58,7 @@
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E561"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "IX3_HVBAT_CURRENT", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327, "min": -327, "mul": -1, "div": 100, "sign": true, "unit": "amps" }, "name": "High voltage battery current"}
+    {"id": "IX3_HVBAT_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 1000, "min": -1000, "mul": -1, "div": 100, "sign": true, "unit": "amps" }, "name": "High voltage battery current"}
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E5C7"}, "freq": 1, "dbgfilter": { "to": 2020 },
   "signals": [
