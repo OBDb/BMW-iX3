@@ -19,6 +19,12 @@ test_cases:
     607F1100762E5C71C13
     607F1212ECFFFFFFFFF
 - expected_values:
+    IX3_HVBAT_E_CAP: 68.47
+    IX3_HVBAT_E_STORED: 29.04
+  response: |-
+    607F1100762E5C71EE0
+    607F1212E47FFFFFFFF
+- expected_values:
     IX3_HVBAT_E_CAP: 70.25
     IX3_HVBAT_E_STORED: 34.45
   response: |-
