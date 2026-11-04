@@ -11,7 +11,7 @@
   "signals": [
     {"id": "IX3_HVBAT_C", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022] },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "IX3_HVBAT_SOC_6F1", "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge",          "suggestedMetric": "stateOfCharge"},
     {"id": "IX3_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, maximum"},
@@ -22,7 +22,7 @@
     {"id": "IX3_HVBAT_CELL_V_MIN", "path": "Engine", "fmt": {           "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Lowest cell voltage"},
     {"id": "IX3_HVBAT_CELL_V_MAX", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Highest cell voltage"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022] },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "IX3_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, minimum"},
     {"id": "IX3_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature, maximum"}
@@ -56,7 +56,7 @@
     {"id": "IX3_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV, average"},
     {"id": "IX3_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E561"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "E561"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "IX3_HVBAT_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 1000, "min": -1000, "mul": -1, "div": 100, "sign": true, "unit": "amps" }, "name": "High voltage battery current"}
   ]},
@@ -69,7 +69,7 @@
   "signals": [
     {"id": "IX3_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022] },
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "IX3_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},

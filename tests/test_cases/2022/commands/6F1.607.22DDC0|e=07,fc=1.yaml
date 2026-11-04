@@ -1,0 +1,8 @@
+command_id: 6F1.607.22DDC0|e=07,fc=1
+test_cases:
+- expected_values:
+    IX3_HVBAT_CT_MAX: 19.67
+    IX3_HVBAT_CT_MIN: 18.7
+  response: |-
+    607F1100A62DDC0074E
+    607F12107AF078601FF

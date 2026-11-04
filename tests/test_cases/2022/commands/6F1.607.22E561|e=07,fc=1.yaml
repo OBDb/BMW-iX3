@@ -1,0 +1,7 @@
+command_id: 6F1.607.22E561|e=07,fc=1
+test_cases:
+- expected_values:
+    IX3_HVBAT_CURRENT: -0.04
+  response: |-
+    607F1100762E5610000
+    607F1210004FFFFFFFF
