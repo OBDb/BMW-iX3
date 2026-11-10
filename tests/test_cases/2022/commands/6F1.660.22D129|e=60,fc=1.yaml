@@ -1,0 +1,22 @@
+command_id: 6F1.660.22D129|e=60,fc=1
+test_cases:
+- expected_values:
+    IX3_BC_RANGE: 296
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD00000B90
+- expected_values:
+    IX3_BC_RANGE: 299
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD00000BAE
+- expected_values:
+    IX3_BC_RANGE: 300
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD00320BB8
+- expected_values:
+    IX3_BC_RANGE: 275
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFDFFFD0ABE

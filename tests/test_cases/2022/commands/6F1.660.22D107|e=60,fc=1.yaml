@@ -4,8 +4,8 @@ test_cases:
     IX3_VSS: 0
   response: 660F10562D1070000
 - expected_values:
-    IX3_VSS: 45.5
-  response: 660F10562D10701C7
+    IX3_VSS: 51
+  response: 660F10562D10701FE
 - expected_values:
-    IX3_VSS: 46.8
-  response: 660F10562D10701D4
+    IX3_VSS: 80
+  response: 660F10562D1070320
