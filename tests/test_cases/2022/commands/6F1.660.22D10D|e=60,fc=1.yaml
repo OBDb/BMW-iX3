@@ -54,3 +54,9 @@ test_cases:
   response: |-
     660F1100B62D10D0001
     660F121251000012510
+- expected_values:
+    IX3_ODO1: 75057
+    IX3_ODO2: 75057
+  response: |-
+    660F1100B62D10D0001
+    660F121253100012531
