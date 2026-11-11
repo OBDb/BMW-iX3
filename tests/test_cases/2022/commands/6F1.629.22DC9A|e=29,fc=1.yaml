@@ -3,6 +3,18 @@ test_cases:
 - expected_values:
     IX3_TPMS_BAT_RL: 6
     IX3_TPMS_POS_RL: 3
+    IX3_TP_RL: 3.201
+    IX3_TP_SET_RL: 3.1
+    IX3_TT_RL: 75
+  response: |-
+    629F1101B62DC9A52BC
+    629F1210AF3030C814B
+    629F1220C1CFF3CFF00
+    629F1234F0006FF0000
+    629F124FF050500FFFF
+- expected_values:
+    IX3_TPMS_BAT_RL: 6
+    IX3_TPMS_POS_RL: 3
     IX3_TP_RL: 3.226
     IX3_TP_SET_RL: 3.1
     IX3_TT_RL: 75
