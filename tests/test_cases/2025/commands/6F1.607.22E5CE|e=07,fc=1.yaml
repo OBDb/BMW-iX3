@@ -1,10 +1,15 @@
 command_id: 6F1.607.22E5CE|e=07,fc=1
 test_cases:
 - expected_values:
-    IX3_HVBAT_SOC: 55.28
+    IX3_HVBAT_SOC: 53.16
   response: |-
-    607F1100962E5CE1598
-    607F121157615ABFFFF
+    607F1100962E5CE14C4
+    607F12114AF14DEFFFF
+- expected_values:
+    IX3_HVBAT_SOC: 55.87
+  response: |-
+    607F1100962E5CE15D3
+    607F12115BD15F0FFFF
 - expected_values:
     IX3_HVBAT_SOC: 57.25
   response: |-
@@ -15,11 +20,6 @@ test_cases:
   response: |-
     607F1100962E5CE1661
     607F12116401673FFFF
-- expected_values:
-    IX3_HVBAT_SOC: 58.06
-  response: |-
-    607F1100962E5CE16AE
-    607F121168D16C0FFFF
 - expected_values:
     IX3_HVBAT_SOC: 66.55
   response: |-

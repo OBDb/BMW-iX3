@@ -1,0 +1,32 @@
+command_id: 6F1.660.22D129|e=60,fc=1
+test_cases:
+- expected_values:
+    IX3_BC_RANGE: 154
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD00000604
+- expected_values:
+    IX3_BC_RANGE: 155
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD0000060E
+- expected_values:
+    IX3_BC_RANGE: 183
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD00AF0726
+- expected_values:
+    IX3_BC_RANGE: 192
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD01CA0780
+- expected_values:
+    IX3_BC_RANGE: 135
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFDFFFD0546
+- expected_values:
+    IX3_BC_RANGE: 200
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFDFFFD07D0
