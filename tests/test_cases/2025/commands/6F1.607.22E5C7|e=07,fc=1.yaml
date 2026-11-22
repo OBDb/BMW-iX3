@@ -1,17 +1,23 @@
 command_id: 6F1.607.22E5C7|e=07,fc=1
 test_cases:
 - expected_values:
+    IX3_HVBAT_E_CAP: 73.81
+    IX3_HVBAT_E_STORED: 32.86
+  response: |-
+    607F1100762E5C7205E
+    607F121305DFFFFFFFF
+- expected_values:
     IX3_HVBAT_E_CAP: 74.16
     IX3_HVBAT_E_STORED: 36.36
   response: |-
     607F1100762E5C721BC
     607F1213080FFFFFFFF
 - expected_values:
-    IX3_HVBAT_E_CAP: 74.16
+    IX3_HVBAT_E_CAP: 73.93
     IX3_HVBAT_E_STORED: 37.04
   response: |-
     607F1100762E5C72200
-    607F1213080FFFFFFFF
+    607F1213069FFFFFFFF
 - expected_values:
     IX3_HVBAT_E_CAP: 74.15
     IX3_HVBAT_E_STORED: 37.76
